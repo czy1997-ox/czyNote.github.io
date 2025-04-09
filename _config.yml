@@ -1,18 +1,23 @@
-title: My GitHub Pages Site
-description: A personal website
+title: Your Blog Title
+description: Your blog description
+author: Your Name
 lang: zh-CN
 timezone: Asia/Shanghai
-theme: jekyll-theme-minimal
 
 # 构建设置
-build:
-  exclude:
-    - Gemfile
-    - Gemfile.lock
-    - node_modules
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/ruby/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/ruby/
 
 # Chirpy 主题设置
 author:

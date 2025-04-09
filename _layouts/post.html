@@ -33,46 +33,55 @@ layout: default
     }
 
     .post-header {
-        margin-bottom: 40px;
+        margin-bottom: 32px;
         text-align: center;
     }
 
     .post-title {
-        font-size: 2em;
-        margin: 0 0 20px 0;
-        text-align: center;
+        margin: 0 0 16px 0;
+        font-size: 32px;
+        line-height: 1.25;
+        color: #24292f;
     }
 
     .post-meta {
-        color: #666;
-        font-size: 0.9em;
+        font-size: 14px;
+        color: #57606a;
     }
 
     .post-date-author {
-        margin-bottom: 15px;
+        margin-bottom: 8px;
     }
 
     .post-date {
-        margin-right: 15px;
+        margin-right: 16px;
     }
 
     .post-author {
-        margin-right: 15px;
+        margin-right: 16px;
     }
 
     .post-tags {
-        display: inline-block;
-        margin-top: 10px;
+        margin-top: 8px;
     }
 
     .tag {
         display: inline-block;
-        margin-right: 10px;
-        color: #666;
+        padding: 0 7px;
+        margin: 0 4px 4px 0;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        white-space: nowrap;
+        border: 1px solid transparent;
+        border-radius: 2em;
+        background-color: #ddf4ff;
+        color: #0969da;
     }
 
     .post-content {
-        line-height: 1.6;
+        font-size: 16px;
+        line-height: 1.8;
     }
 
     .post-content h1,
@@ -87,12 +96,17 @@ layout: default
         line-height: 1.25;
     }
 
+    .post-content h2 {
+        padding-bottom: 8px;
+        border-bottom: 1px solid #d0d7de;
+    }
+
     .post-content code {
         padding: 0.2em 0.4em;
         margin: 0;
         font-size: 85%;
-        background-color: rgba(27, 31, 35, 0.05);
-        border-radius: 3px;
+        background-color: rgba(175, 184, 193, 0.2);
+        border-radius: 6px;
     }
 
     .post-content pre {
@@ -101,14 +115,42 @@ layout: default
         font-size: 85%;
         line-height: 1.45;
         background-color: #f6f8fa;
-        border-radius: 3px;
+        border-radius: 6px;
+    }
+
+    .post-content pre code {
+        padding: 0;
+        background-color: transparent;
     }
 
     .post-content blockquote {
         padding: 0 1em;
-        color: #6a737d;
-        border-left: 0.25em solid #dfe2e5;
+        color: #57606a;
+        border-left: 0.25em solid #d0d7de;
         margin: 0;
+    }
+
+    .post-content img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .post-content table {
+        display: block;
+        width: 100%;
+        overflow: auto;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+
+    .post-content table th,
+    .post-content table td {
+        padding: 6px 13px;
+        border: 1px solid #d0d7de;
+    }
+
+    .post-content table tr:nth-child(2n) {
+        background-color: #f6f8fa;
     }
 
     /* 移除左侧标题 */
