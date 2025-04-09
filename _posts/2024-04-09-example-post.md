@@ -3,7 +3,7 @@ layout: post
 title: 示例文章
 date: 2024-04-09
 author: Your Name
-tags: [示例, 博客]
+tags: [示例, 博客, 技术]
 ---
 
 # 示例文章
