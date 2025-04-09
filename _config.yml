@@ -1,6 +1,5 @@
-title: Your Blog Title
-description: Your blog description
-author: Your Name
+title: Czyang's Blog
+author: Chenzhengyang
 lang: zh-CN
 timezone: Asia/Shanghai
 
@@ -18,17 +17,6 @@ exclude:
   - vendor/bundle/
   - vendor/cache/
   - vendor/ruby/
-
-# Chirpy 主题设置
-author:
-  name: Chenzhengyang
-  email: czyang1997@163.com
-  url: 'https://github.com/czy1997-ox'
-  avatar: /assets/img/avatar.jpg  # 替换为你的头像路径
-  bio: '在这里写一段简短的个人介绍'
-  location: 无锡
-  social:
-    github: czy1997-ox
 
 # 网站设置
 permalink: /posts/:title/
