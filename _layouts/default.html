@@ -17,6 +17,18 @@
                     htmlLabels: true
                 }
             });
+
+            // 查找并处理所有mermaid代码块
+            document.querySelectorAll('pre code.language-mermaid').forEach(function (element) {
+                // 创建新的div元素
+                var newDiv = document.createElement('div');
+                newDiv.className = 'mermaid';
+                newDiv.innerHTML = element.textContent;
+
+                // 替换pre元素
+                var preElement = element.parentElement;
+                preElement.parentNode.replaceChild(newDiv, preElement);
+            });
         });
     </script>
     <style>
