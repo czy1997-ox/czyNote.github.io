@@ -13,4 +13,4 @@ title: 首页
 
 ## 最新文章
 
-- [示例文章](/posts/example-post) 
+- [示例文章](/_posts/2024-04-09-example-post.md) 
